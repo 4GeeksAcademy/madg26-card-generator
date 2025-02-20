@@ -1,5 +1,31 @@
 @import "bootstrap/dist/css/bootstrap.min.css";
 
 body{
-    background: blue;
+    background: green;
+}
+
+.card{
+    display: flex;
+    justify-content: space-between;
+    width: 400px;
+    height: 500px;
+    margin-top: 10px;
+    margin-left: 300px;
+    border-radius: 20px;
+   
+}
+#number{
+
+    margin: auto  ;
+    font-size: 100px;
+}
+.card-heart {
+    margin-left: 20px;
+    font-size: 100px;
+    margin-left: 10px;
+}
+.card-heart-rotate{
+    margin-right: 20px;
+    display: inline-block;
+    transform: rotate(180deg);
 }
